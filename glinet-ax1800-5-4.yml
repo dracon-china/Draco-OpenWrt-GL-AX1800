@@ -9,7 +9,7 @@ feeds:
     path: ../../feeds/ipq807x
   - name: gl_feeds_common
     uri: https://github.com/gl-inet/gl-feeds.git
-    revision: 17bad2766e8435b483044156207f40630604dfcb
+    revision: 6d36fa8b49061674c709c40b8c3ed5881be3190a
   - name: luci
     uri: https://github.com/openwrt/luci.git
     revision: 1c3b32dc1bec15e3076a447762b1c4f94eb75fb7
@@ -24,7 +24,7 @@ feeds:
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: 272ecd4387143d52cf15740a35c9a5a3c90463d9
+    revision: 5de689e180e304287313cecc968c323d42b6d388
   - name: kenzok8_small
     uri: https://github.com/kenzok8/small.git
     branch: master
