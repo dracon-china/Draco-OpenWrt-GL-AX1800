@@ -26,11 +26,11 @@ feeds:
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: 729afa89a828b6908cf98f6d69474297a5fa945d
+    revision: d4c7242811058eaa3a70a40a16e5bda23e9d8871
   - name: kenzok8_small
     uri: https://github.com/kenzok8/small.git
     branch: master
-    revision: 99791eed039d98056be82b4ecc57b20c6ac322b6
+    revision: ecac4b34345c8c63d044f84b1f48e522b83be518
 include: []
 packages:
   - kmod-hwmon-pwmfan
