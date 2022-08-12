@@ -26,11 +26,11 @@ feeds:
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: 94b036123dfa087c91b176f9096e82385894a414
+    revision: 63340b58c846224d71c2e6a5d1b70e132aeb5085
   - name: kenzok8_small
     uri: https://github.com/kenzok8/small.git
     branch: master
-    revision: c84c0b00b3b9f9e1023185daa00d178815209194
+    revision: 4bdc54adb30ccb1e1dd696340a24f69736477fcb
 include: []
 packages:
   - wireless-regdb
