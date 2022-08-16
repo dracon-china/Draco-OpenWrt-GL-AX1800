@@ -14,6 +14,10 @@ module.exports = [
     desc: 'argon主题设置',
   },
   {
+    name: 'luci-app-store',
+    desc: '应用商店',
+  },
+  {
     name: 'luci-app-ramfree',
     desc: '释放内存',
   },

@@ -19,14 +19,14 @@ feeds:
     uri: https://github.com/destan19/OpenAppFilter.git
     branch: oaf-5.1.0
     revision: 04b701357c271a1bf97afa5dbfbfd02f4861aa25
-  - name: immortalwrt_luci
-    uri: https://github.com/immortalwrt/luci.git
-    branch: openwrt-21.02
-    revision: 9fc2339e0229a314b6377840b2d7376b948235b0
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
     revision: 32eebb60a8d887048ef6073e216c47d0ad381286
+  - name: immortalwrt_luci
+    uri: https://github.com/immortalwrt/luci.git
+    branch: openwrt-21.02
+    revision: 9fc2339e0229a314b6377840b2d7376b948235b0
   - name: kenzok8_small
     uri: https://github.com/kenzok8/small.git
     branch: master
@@ -38,6 +38,7 @@ packages:
   - kmod-wireguard-backport
   - luci-theme-argon
   - luci-app-argon-config
+  - luci-app-store
   - luci-app-ramfree
   - luci-app-wol
   - luci-app-diskman
