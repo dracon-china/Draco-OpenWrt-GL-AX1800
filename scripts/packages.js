@@ -49,10 +49,10 @@ module.exports = [
     name: 'luci-app-turboacc',
     desc: 'Turbo ACC 网络加速(支持 Fast Path 或者 硬件 NAT)',
   },
-  {
-    name: 'luci-app-xlnetacc',
-    desc: '迅雷快鸟',
-  },
+  // {
+  //   name: 'luci-app-xlnetacc',
+  //   desc: '迅雷快鸟',
+  // },
   {
     name: 'luci-app-appfilter',
     desc: '应用过滤'
@@ -89,10 +89,10 @@ module.exports = [
     name: 'luci-app-passwall',
     desc: 'passwall代理软件',
   },
-  {
-    name: 'luci-app-ssr-plus',
-    desc: 'ssr-plus 代理软件',
-  },
+  // {
+  //   name: 'luci-app-ssr-plus',
+  //   desc: 'ssr-plus 代理软件',
+  // },
   {
     name: 'luci-app-aliddns',
     desc: '阿里云ddns插件',
@@ -133,16 +133,16 @@ module.exports = [
     name: 'luci-app-transmission',
     desc: 'BT下载工具',
   },
-  {
-    name: 'luci-app-dailybonus',
-    desc: '京东签到服务',
-  },
+  // {
+  //   name: 'luci-app-dailybonus',
+  //   desc: '京东签到服务',
+  // },
   {
     name: 'luci-app-frpc',
     desc: 'frpc 网络代理',
   },
-  {
-    name: 'luci-app-frps',
-    desc: 'frps 网络代理',
-  },
+  // {
+  //   name: 'luci-app-frps',
+  //   desc: 'frps 网络代理',
+  // },
 ];
