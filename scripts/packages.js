@@ -37,10 +37,10 @@ module.exports = [
     name: 'luci-app-openclash',
     desc: 'clash的图形代理软件',
   },
-  {
-    name: 'luci-app-aria2',
-    desc: 'aria2下载工具',
-  },
+//   {
+//     name: 'luci-app-aria2',
+//     desc: 'aria2下载工具',
+//   },
   {
     name: 'luci-app-zerotier',
     desc: 'ZeroTier内网穿透',
@@ -57,10 +57,10 @@ module.exports = [
 //     name: 'luci-app-appfilter',
 //     desc: '应用过滤'
 //   },
-  {
-    name: 'luci-app-cpufreq',
-    desc: 'CPU 性能优化调节',
-  },
+//   {
+//     name: 'luci-app-cpufreq',
+//     desc: 'CPU 性能优化调节',
+//   },
 //   {
 //     name: 'luci-app-samba4',
 //     desc: 'samba4文件共享',
@@ -97,10 +97,10 @@ module.exports = [
 //     name: 'luci-app-aliddns',
 //     desc: '阿里云ddns插件',
 //   },
-//   {
-//     name: 'luci-app-ddns',
-//     desc: '动态域名 DDNS',
-//   },
+   {
+     name: 'luci-app-ddns',
+     desc: '动态域名 DDNS',
+   },
 //   {
 //     name: 'luci-app-eqos',
 //     desc: '依IP地址限速',
@@ -129,10 +129,10 @@ module.exports = [
     name: 'luci-app-serverchan',
     desc: '微信/Telegram推送',
   },
-  {
-    name: 'luci-app-transmission',
-    desc: 'BT下载工具',
-  },
+//   {
+//     name: 'luci-app-transmission',
+//     desc: 'BT下载工具',
+//   },
 //   {
 //     name: 'luci-app-jd-dailybonus',
 //     desc: '京东签到服务',
@@ -145,4 +145,12 @@ module.exports = [
 //     name: 'luci-app-frps',
 //     desc: 'frps 网络代理',
 //   },
+  {
+    name: 'luci-app-netdata',
+    desc: '网络监控',
+  },
+  {
+    name: 'luci-app-uugamebooster',
+    desc: 'UU游戏加速',
+  },
 ];

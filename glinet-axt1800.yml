@@ -40,11 +40,12 @@ packages:
   - luci-app-diskman
   - luci-app-smartdns
   - luci-app-openclash
-  - luci-app-aria2
   - luci-app-zerotier
   - luci-app-turboacc
   - luci-app-xlnetacc
-  - luci-app-cpufreq
   - luci-app-ttyd
   - luci-app-serverchan
-  - luci-app-transmission
+  - luci-app-uugamebooster
+  - luci-app-netdata
+  - luci-app-ddns
+  - ddns-scripts_aliyun
