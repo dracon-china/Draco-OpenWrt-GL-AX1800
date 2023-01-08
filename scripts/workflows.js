@@ -9,61 +9,17 @@
  */
  module.exports = [
   {
-    model: 'ax1800',
-    config: 'config-wlan-ap',
-    target: 'target_wlan_ap-gl-ax1800',
-    official: true,
-  },
-  {
     model: 'axt1800',
     config: 'config-wlan-ap',
     target: 'target_wlan_ap-gl-axt1800',
     official: true,
   },
   {
-    model: 'mt2500',
-    config: 'config-mt798x-7.6.6.1',
-    target: 'target_mt7981_gl-mt2500',
+    name: 'build-glinet-axt1800-5.4',
+    model: 'axt1800',
+    config: 'config-wlan-ap-5.4',
+    target: 'target_wlan_ap-gl-axt1800-5-4',
+    build: 'glinet-axt1800-5-4',
     official: true,
-  },
-  // {
-  //   model: 'mt1300',
-  //   config: 'config-22.03.0',
-  //   target: 'target_ramips_gl-mt1300',
-  //   official: false,
-  // },
-  // {
-  //   model: 'a1300',
-  //   config: 'config-22.03.2',
-  //   target: 'target_ipq40xx_gl-a1300',
-  //   official: false,
-  // },
-  // {
-  //   model: 'sf1200',
-  //   config: 'config-siflower-18.x',
-  //   target: 'target_siflower_gl-sf1200',
-  //   official: false,
-  // },
-  // {
-  //   model: 'sft1200',
-  //   config: 'config-siflower-18.x',
-  //   target: 'target_siflower_gl-sft1200',
-  //   official: false,
-  // },
-  // {
-  //   name: 'build-glinet-ax1800-5.4',
-  //   model: 'ax1800',
-  //   config: 'config-wlan-ap-5.4',
-  //   target: 'target_wlan_ap-gl-ax1800-5-4',
-  //   build: 'glinet-ax1800-5-4',
-  //   official: true,
-  // },
-  // {
-  //   name: 'build-glinet-axt1800-5.4',
-  //   model: 'axt1800',
-  //   config: 'config-wlan-ap-5.4',
-  //   target: 'target_wlan_ap-gl-axt1800-5-4',
-  //   build: 'glinet-axt1800-5-4',
-  //   official: true,
-  // },
+   },
 ];
