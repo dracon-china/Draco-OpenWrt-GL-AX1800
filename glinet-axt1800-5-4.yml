@@ -37,11 +37,17 @@ packages:
   - luci-app-diskman
   - luci-app-smartdns
   - luci-app-openclash
-  - luci-app-aria2
   - luci-app-zerotier
+  - luci-app-frpc
   - luci-app-turboacc
-  - luci-app-xlnetacc
   - luci-app-cpufreq
   - luci-app-ttyd
-  - luci-app-serverchan
-  - luci-app-transmission
+  - gl-sdk4-led
+  - gl-sdk4-cloud
+  - gl-sdk4-ui-cloud
+  - kmod-gl-sdk4-black_white_list
+  - gl-sdk4-kmwan
+  - gl-line-graph
+  - gl-sdk4-local-access
+  - gl-sdk4-ui-guestip
+  - gl-sdk4-ui-security
