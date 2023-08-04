@@ -12,29 +12,30 @@ feeds:
     path: ../../feeds/ipq807x
   - name: wifi_ax
     path: ../../feeds/wifi-ax
-  - name: gl_feeds_common
+  - name: gl_feed_common
     uri: https://github.com/gl-inet/gl-feeds.git
-    revision: 341ee97aaa761c0fc93a0d28fc8634d42f7f7c4c
+    revision: 9654671f8960795787cbd70e827f9c9afeac1d38
   - name: luci
     uri: https://github.com/openwrt/luci.git
     revision: 1c3b32dc1bec15e3076a447762b1c4f94eb75fb7
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: fa26c805986eafea59efb76965a67e04201fd429
+    revision: 2660741f61d5463afe4928a3286679761b3fdfd5
   - name: immortalwrt_luci
     uri: https://github.com/immortalwrt/luci.git
     branch: openwrt-21.02
-    revision: 94f026b4e9aeea0caa460e190dbb40c77c15b3e6
+    revision: 0d1a03d5cae511ba8ef9ae90dddd4ac458fb8aea
   - name: small_package
     uri: https://github.com/kenzok8/small-package.git
     branch: main
-    revision: 138efb6701508830bd5b5fd227dfe435c89d1cc6
+    revision: 75e1681af25663a3b383b66949386ecb5963594f
 include: []
 packages:
   - wireless-regdb
   - wget-ssl
   - kmod-wireguard-backport
+  - wpad-openssl
   - luci-theme-argon
   - luci-app-argon-config
   - luci-app-ramfree
@@ -50,3 +51,6 @@ packages:
   - luci-app-ttyd
   - luci-app-serverchan
   - luci-app-transmission
+diffconfig: |
+  CONFIG_PACKAGE_wpad-basic=n
+  CONFIG_PACKAGE_wpad=n
